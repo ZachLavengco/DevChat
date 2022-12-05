@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "modeseven";
+  src: url("../public/modeseven-font/Modeseven-L3n5.ttf");
+}
+
+@layer base {
+  html {
+    @apply font-modeseven
+  }
+}
+
+html {
+  @apply text-white
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: underline;
+}
+/* 
+
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  width: 60%;
+  left: 0;
+  background-color: black;
+}
+
+.right {
+  width: 40%;
+  right: 0;
+  background-color: black;
+}
+
+
+.message-window {
+  background-color: black;
+}
+
+.empty-space {
+  height: 10px;
+}
+
+.message-list { 
+  list-style: none;
+}
+
+.sent-message {
+  padding-left: 100px;
+} 
+*/
+
+
